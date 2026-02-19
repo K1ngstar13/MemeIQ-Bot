@@ -1,0 +1,30 @@
+{
+  "name": "memeiq-telegram-bot",
+  "version": "1.0.0",
+  "description": "MemeIQ - AI-powered meme coin analysis bot for Telegram",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "crypto",
+    "solana",
+    "meme-coin",
+    "trading"
+  ],
+  "author": "MemeIQ",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.15.0",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
